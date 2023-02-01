@@ -16,6 +16,31 @@
 
     <h1>Current date</h1>
 
+    <h1>3.4 Variable in PHP</h1>
+    
+    <h1>3.5 Variable in PHP</h1>
+    <?php
+    $g1 = 5;
+    $g2 = 4;
+    $g3 = 5; 
+    echo "
+    <table>
+    <tr>
+    <th> S.N </th><th> Name </th><th> Grade </th>
+    <tr>
+    <tr>
+    <td> 1 </th><th> Pekka </th><th> $g1 </th>
+    <tr>
+    ";
+
+
+
+
+
+
+
+
+
     <?php echo date('l jS \of F Y h:i:s A');?>
     <br>
     <?php echo date("m.d.y");?>
