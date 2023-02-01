@@ -1,6 +1,5 @@
 <?php
 $title = "About us";
-
 include "header.php" ?>
 
     <h1>3.1 My Simple  PHP Script</h1>
