@@ -16,9 +16,9 @@
 <body>
   <div class="container" >
     <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(0, 110 , 110);" >
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Cool Restaurant</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,13 +28,19 @@
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="menu.php">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ex1.php">Order Online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ex1.php">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.php">About Us</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="ex1.php">ex1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact us</a>
         </li>
         
       </ul>

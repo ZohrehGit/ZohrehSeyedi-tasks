@@ -4,18 +4,20 @@ include "header.php" ?>
 
     <h1>Menu</h1>
 
-    <h4>simple menu</h4>
+    <h3>Lunch</h3>
 
-    <h1>Current date</h1>
+    <h3>Cake</h3>
 
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis sunt quisquam earum temporibus 
-        minus aliquid eos placeat corporis quasi enim! Numquam officia illum ea voluptates mollitia. 
-        Obcaecati facilis exercitationem sunt?
+    <h3>Drink</h3>
+
+    <p> 
+        Name <br>
+        Price 
     </p>
 
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis sunt quisquam earum temporibus 
-        minus aliquid eos placeat corporis quasi enim! Numquam officia illum ea voluptates mollitia. 
-        Obcaecati facilis exercitationem sunt?
+    <p> 
+        Name <br>
+        Price 
     </p>
 
     <?php echo date('l jS \of F Y h:i:s A');?>

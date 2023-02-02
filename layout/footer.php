@@ -2,12 +2,15 @@
     </div>
   </div>
   <div class="row">
-<footer style="background-color: rgb(65, 7, 109); color: white;">
+<footer style="background-color: rgb(0, 110 , 110); color: white;">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
+  <div class="footer-copyright text-center py-3">
+    <p style="font-size: large;">Contact us:</p>
+    <p style="font-size: medium;">Phone: 044 123 456 <br> 
+    Email: cool.restaurant@gmail.com <br> 
+    Address: Feikkikatu 7, Hämeenlinna </P>
   </div>
-  <!-- Copyright -->
 
 </footer></div>
 </div>
