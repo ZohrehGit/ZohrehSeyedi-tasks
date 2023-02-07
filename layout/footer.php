@@ -4,6 +4,10 @@
   <div class="row">
 <footer style="background-color: rgb(0, 110 , 110); color: white;">
 
+<!-- My own link to CSS 
+<link rel="stylesheet" href="style.css">
+-->
+
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
     <p style="font-size: large;">Contact us:</p>
@@ -12,7 +16,21 @@
     Address: Feikkikatu 7, Hämeenlinna </P>
   </div>
 
-</footer></div>
+  <div class="footer-copyright text-center py-3" >© 2020 Copyright <br>
+    <?php
+      $fileName = 'variable.php';
+        if (file_exists($fileName)) 
+        {
+        //echo "last modified: " . date ("F d Y H:i:s.", filemtime($fileName));
+        echo "last modified: " . date ("F d Y H:i a", filemtime($fileName));
+        }
+    ?>
+  </div>
+
+  
+
+</footer>
+</div>
 </div>
 
 <!-- Optional JavaScript -->

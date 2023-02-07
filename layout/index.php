@@ -2,6 +2,10 @@
 $title = "Cool Resturant";
 include "header.php" ?>
 
+<!-- My own link to CSS 
+<link rel="stylesheet" href="style.css">
+-->
+
 <div class="content">
         
         <article class="content_info">
@@ -24,4 +28,6 @@ include "header.php" ?>
 -->
 
 <?php include "footer.php" ?>
+
+
 
