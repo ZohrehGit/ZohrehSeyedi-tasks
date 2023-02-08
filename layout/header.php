@@ -53,6 +53,9 @@
         <li class="nav-item">
           <a class="nav-link" href="variable.php">variable</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="controlflow.php">controlflow</a>
+        </li>
         
       </ul>
       <form class="d-flex" role="search">

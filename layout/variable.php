@@ -1,5 +1,5 @@
 <?php
-$title = "Cool Resturant";
+$title = "variable";
 include "header.php" ?>
 
 <h1> inClass 07-02-2023 </h1>
