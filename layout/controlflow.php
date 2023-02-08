@@ -61,6 +61,49 @@ include "header.php" ?>
     }  
 ?>
 
+<h3>4.	Write a program to get inputs (age and name) from the user and based on their age, </h3>
 
+     <form action="actionCheckAge.php" method="post">
+
+     <div class="row">
+         <div class="col">
+             Name: <input type ="text" name="fname" required placeholder="First Name" class="form-control">
+         </div>
+         <div class="col">
+             
+         </div>
+     </div>
+ 
+     <div class="row">
+         <div class="col">
+             age: <input type ="Number" name="age" required placeholder="age" class="form-control">
+         </div>
+         <div class="col">
+             
+         </div>
+     </div>
+         <input type ="submit" name="submit">
+
+<h3>5.	In task 5, you used $_SERVER['HTTP_USER_AGENT']; to get the browser name. Use Switch statement </h3>
+   
+<?php
+
+$httpUA = $_SERVER['HTTP_USER_AGENT'];
+
+    switch ($httpUA) 
+    {
+    case strpos($httpUA, "Edg") == true;
+        echo "<br> You are using Microsoft Edge";
+    break;
+
+    case strpos($httpUA, "Chrome") == true;
+        echo "<br> You are using Goolge Chrome";
+    break;
+    
+    case strpos($httpUA, "Firefox") == true;
+        echo "<br> You are using Mozila Firefox";
+    break;
+    }
+?>
 
 <?php include "footer.php" ?>
