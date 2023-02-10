@@ -36,7 +36,7 @@ include "../layout/header.php";?>
             }
             else{
 
-                echo"Error: .$conn->error";
+                echo"Error:" .$conn->error;
 
             }
         }
