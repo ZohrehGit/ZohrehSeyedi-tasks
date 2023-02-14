@@ -14,7 +14,7 @@
 
 <style>
   a, .nav-link,.navbar-brand {
-    color: white;
+    color: black;
 }
     </style>
 </head>
@@ -58,6 +58,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="array.php">array</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../CRUD1/create.php">create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../CRUD1/read.php">read-update</a>
         </li>
         
       </ul>
