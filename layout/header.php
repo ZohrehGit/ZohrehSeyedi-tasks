@@ -30,34 +30,34 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="../layout/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="menu.php">Menu</a>
+          <a class="nav-link" href="../layout/menu.php">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Order Online</a>
+          <a class="nav-link" href="../layout/ex1.php">Order Online</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Reservation</a>
+          <a class="nav-link" href="../layout/ex1.php">Reservation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
+          <a class="nav-link" href="../layout/aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">ex1</a>
+          <a class="nav-link" href="../layout/ex1.php">ex1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="test.php">variablePractice</a>
+          <a class="nav-link" href="../layout/test.php">variablePractice</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">variable</a>
+          <a class="nav-link" href="../layout/variable.php">variable</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">controlflow</a>
+          <a class="nav-link" href="../layout/controlflow.php">controlflow</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">array</a>
+          <a class="nav-link" href="../layout/array.php">array</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../CRUD1/create.php">create</a>

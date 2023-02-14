@@ -59,10 +59,10 @@ $row = mysqli_fetch_array($result)
 
             if ($query){
 
-                echo "<h2> Your Information updated Successfully </h2>";
+                echo "<h2> Your information delete Successfully </h2>";
             }
             else{
-                echo "<h2> Not update </h2>";
+                echo "<h2> Not delete </h2>";
             }
     }
 
