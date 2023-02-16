@@ -65,6 +65,12 @@
         <li class="nav-item">
           <a class="nav-link" href="../CRUD1/read.php">read-update</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ProjectPractice/customer.php">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ProjectPractice/customerList.php">Customer List</a>
+        </li>
         
       </ul>
       <!--

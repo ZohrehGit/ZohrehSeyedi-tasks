@@ -50,11 +50,7 @@ $row = mysqli_fetch_array($result)
     }
 
     if (isset($_POST['delete'])){
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $city = $_POST['city'];
-        $groupid = $_POST['groupid'];
-
+    
         $query = mysqli_query($conn, "delete from studentInfo where id = '$a'");
 
             if ($query){
@@ -62,7 +58,7 @@ $row = mysqli_fetch_array($result)
                 echo "<h2> Your information delete Successfully </h2>";
             }
             else{
-                echo "<h2> Not delete </h2>";
+                echo "<h2> Delete failed </h2>";
             }
     }
 
