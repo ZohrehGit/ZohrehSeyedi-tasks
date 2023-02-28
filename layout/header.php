@@ -17,6 +17,13 @@
     color: black;
 }
     </style>
+
+    <!-- Call JavaScrit file -->
+    <script scr="../layout/js/site.js"></script>
+
+    <input type="button" onclick="hello()" value="click me">
+
+
 </head>
 <body>
   <div class="container" >

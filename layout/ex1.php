@@ -18,7 +18,26 @@ include "header.php" ?>
     <br>
     <?php echo date("m.d.Y");?>
 
-    <h1>PHP is interesting</h1>
+    <h3> ------------------ </h3>
+    
+    <h3>JavaScript is interesting</h3>
+    
+    <script>
+        document.write("Hello world JavaScript");
+    </script><br><br>
+
+    <h3> Change Backgroud-Color </h3>
+
+    <h2>Changing background-color</h2>
+    
+    <form>
+        <input type="color" name="newColor"
+        onchange="changeColor('newColor', this.value)">
+    </form>
+
+    <h3> ------------------ </h3>
+
+    <h3>PHP is interesting</h3>
    
     <?php 
     $g1=5;

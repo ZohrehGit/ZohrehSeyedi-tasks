@@ -1,0 +1,292 @@
+.logo-con {
+    display: flex;
+}
+.logo {
+    width: 50px; 
+    height: 50px;
+    margin: auto;
+
+}
+
+.logo-3 {
+    width: 250px; 
+    height: 70px;
+    margin: auto; 
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-family: Times, serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    background-image: url(image/background2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    background:#006e6e;
+    color: white;
+    text-align: left;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.content {
+    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex : 0 1 45%;
+}
+
+.content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+}
+
+.content img{
+    padding: 16px;
+    width: 330px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #006e6e;
+    color: white;
+    text-align: center;
+    text-align: 1vw;
+    line-height: 0.6;
+    padding-bottom: 15px;
+}
+
+button {
+    background-color: #006e6e;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin-left: 5px;
+    width: fit-content; 
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(102, 102, 107);
+}
+
+.social-media a img{
+    display: inline-block; 
+    margin: 0 10px; 
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_con h1 {
+    margin: 60px;
+}
+
+.maincourse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ham_menu {
+    display: none;
+}
+
+.dot {
+    width: 40px;
+    height: 4px;
+    margin: 4px;
+    background-color: #f1f1f1;
+}
+
+iframe
+{
+    margin-top: 40px;
+    width: fit-content;
+    height: 180px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    font-weight: bold;
+    margin-left: 10px;
+    width: fit-content;    
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color:#006e6e;
+    color: white;
+}
+
+.social-media {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    image-resolution: 70%;
+}
+
+.container{
+    align-items: center;
+}
+
+.menu_con {
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .maincourse{
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .logo-3 {
+        display: none;
+    }
+
+    .logo {
+        left: 4px;
+    }
+
+    .header-links a {
+        font-size: 20px;
+    }
+
+    .header-links {
+        gap: 10px;
+    }
+
+
+    .content img {
+        width: 300px;
+        height: auto;
+    }
+
+    .content_info {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    button {
+        margin: auto;
+        text-align: center;
+        margin: 2px;
+    }
+
+    .ham_menu {
+        display: block;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .header-links:hover .header-menu{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        padding: 16px;
+        flex-direction: column;
+        background-color: #006e6e;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content img {
+        width: 250px;
+        height: auto;
+    }
+}
