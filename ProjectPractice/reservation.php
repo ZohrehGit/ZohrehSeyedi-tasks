@@ -3,29 +3,52 @@ $title = "Reservation";
 include "../layout/header.php";?>
 
 <!-- Reservation form -->
-<form method="post">
-  <label for="date">Date:</label><br>
-  <input type="date" id="date" name="date" required><br><br>
+<form method="post" style="margin: 7rem 0 2rem 2rem;">
+<div class="row">
+        <div class="col">
+            <label for="fName">First Name:</label><br>
+            <input type="text" id="fName" name="fName" ><br><br>
+        </div>
+        
+        <div class="col">
+            <label for="lName">Last Name:</label><br>
+            <input type="text" id="lName" name="lName" ><br><br>
+        </div>
+  </div>
 
-  <label for="time">Time:</label><br>
-  <input type="time" id="time" name="time" required><br><br>
+  <div class="row">
+        <div class="col">
+            <label for="phoneNum">Phone Number:</label><br>
+            <input type="tel" id="phoneNum" name="phoneNum" ><br><br>
+        </div>
+        
+        <div class="col">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" ><br><br>
+        </div>
+  </div>
 
-  <label for="num_guests">Number of Guests:</label><br>
-  <input type="number" id="num_guests" name="num_guests" min="1" max="10" required><br><br>
+  <div class="row">
+        <div class="col">
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+        </div>
+        
+        <div class="col">
+            <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+        </div>
+  </div>
 
-  <label for="fName">First Name:</label><br>
-  <input type="text" id="fName" name="fName" ><br><br>
+  <div class="row">     
+        <div class="col">
+            <label for="num_guests">Number of Guests:</label><br>
+            <input type="number" id="num_guests" name="num_guests" min="1" max="10" required><br><br>
+        </div>
+  </div>
 
-  <label for="lName">Last Name:</label><br>
-  <input type="text" id="lName" name="lName" ><br><br>
+<input type="submit" name="submit" value="Reserve">
 
-  <label for="phoneNum">Phone Number:</label><br>
-  <input type="tel" id="phoneNum" name="phoneNum" ><br><br>
-
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" ><br><br>
-
-  <input type="submit" name="submit" value="Reserve">
 </form>
 
 <?php
