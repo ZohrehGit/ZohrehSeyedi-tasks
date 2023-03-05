@@ -21,9 +21,6 @@
     <!-- Call JavaScrit file -->
     <script scr="../layout/js/site.js"></script>
 
-    <input type="button" onclick="hello()" value="click me">
-
-
 </head>
 <body>
   <div class="container" >
@@ -78,7 +75,10 @@
         <li class="nav-item">
           <a class="nav-link" href="../ProjectPractice/customerList.php">Customer List</a>
         </li>
-        
+         <li class="nav-item">
+          <a class="nav-link" href="../ProjectPractice/reservation.php">Reservation_new</a>
+        </li>
+
       </ul>
       <!--
       <form class="d-flex" role="search">
