@@ -10,33 +10,45 @@ $title = "customer";
         $address=$_POST['address'];
         $myPass=$_POST['myPass'];
         $confirm_password=$_POST['confirm_password'];
-
+        $servername = "db";
+        $username = "team8";
+        $password = "team8pass";
+        $dbname = "team8";
+        //include('db.php');
         if ($myPass == $confirm_password)
         {
+            $conn = new mysqli($servername, $username, $password, $dbname);
             $sql="insert into customer(fName, lName, phoneNum, nationalCode, email, address, myPass)
             values('$fName','$lName','$phoneNum','$nationalCode','$email','$address', '$myPass')"; 
-            header("Location: ../layout/index.php");
-            exit;
-        } 
-        else
-            {
-            echo" <h5> Password and Confirm Password do not match <h5>";
+            if($conn->query($sql)===TRUE){                
+                //echo" <h5> Your information is added successfully <h5>";
+                header("Location: ../layout/index.php");
+                exit;
             }
-        //$servername = "db";
-        //$username = "team8";
-        //$password = "team8pass";
-        //$dbname = "team8";
-        //include('db.php');
-        //$conn = new mysqli($servername, $username, $password, $dbname);
-        
+            else{
+                echo"Error:" .$conn->Error;
+            }
+        }else
+            {
+            echo"Password and Confirm Password do not match";
+            } 
     }
 ?>
-<?php include "../layout/header.php";
-      include('db.php');?>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<?php include "../layout/header.php"?>
 <!DOCTYPE html>
 <html>
 <form method="post">
-    <h5>Restaurant Sign Up Form</h5>
+    <h4>Sign Up Form</h4>
     <div class="row">
         <div class="col">
             First Name:     <br><input type ="text" name ="fName" placeholder="" required size="30"> <br><br>
